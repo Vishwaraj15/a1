@@ -1,5 +1,10 @@
 <p>
   My Org App
 </p>
-
+<nav class="navbar navbar-inverse">
+  <ul class="nav navbar-nav">
+    <li><a [routerLink]="department" [routerLinkActive]="active">Departments</a></li>
+    <li><a [routerLink]="employees" [routerLinkActive]="active">Employees</a></li>
+  </ul>
+</nav>
 <router-outlet></router-outlet>
